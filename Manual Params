@@ -1,0 +1,22 @@
+Manual Params
+
+Total params = Weights +Biases
+
+FOR FEED FORWARD 
+
+Weights = nodes in the current layer * nodes in previous layer
+
+Bias = 1 * nodes in current layer
+
+FOR CNN
+
+Weights = Dimensions of layer * depth of input * no. Of kernels
+
+Biases = 1* no. Of kernals
+
+Total = Weights + Biases
+
+
+Output Size formula:
+
+(Input size - layer size + 2*padding) /strides + 1   ×  no. Of kernels
